@@ -95,3 +95,5 @@ All commands are run from the root of the project, from a terminal:
 <p align="center">
   <img src="./src/assets/screenshots/Animation.gif" alt="Start animation">
 </p>
+
+### Credits for the background pattern to -> https://btmills.github.io/geopattern/
