@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import App from "../components/App.svelte";
+import logo from "../assets/logo.png?url";
+import Footer from "../components/Footer.svelte";
+---
+
+<Layout title="Kat Chat">
+  
+  <main
+  class="overflow-y-auto flex flex-col items-center justify-center min-h-screen w-screen  mt-[-100px]"
+	>
+    <section
+      id="app"
+      class="w-[80vw] h-full transition-opacity duration-3000 ease-in-out"
+    >
+      <App client:idle />
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
