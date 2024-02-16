@@ -27,7 +27,7 @@
 </script>
 
 {#if $showButton}
-<div class="h-full w-full flex flex-col items-center justify-center align-middle"
+<div class="flex flex-col justify-center items-center w-[80vw] min-h-screen"
      >
      <div
       id="animatedDiv"

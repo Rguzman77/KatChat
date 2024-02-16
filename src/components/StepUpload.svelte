@@ -59,7 +59,7 @@
 </script>
 
 {#if files.accepted.length === 0}
-<div class="flex flex-col align-middle justify-center items-end">
+<div class="flex flex-col justify-center items-center w-[80vw] min-h-screen -mt-10">
   <img src="https://media.tenor.com/LhsNv1wG21MAAAAi/bongo-cat-outline.gif" class="-mb-12 mr-5 pointer-events-none -rotate-12 w-60" alt="Bongo Cat" />
   <div class="w-full">
     <Dropzone
