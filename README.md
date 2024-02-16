@@ -78,7 +78,7 @@ Inside of this Astro project, you'll see the following folders and files:
 ```
 
 
-## 🧞 Commands
+## Commands 🧞
 
 All commands are run from the root of the project, from a terminal:
 
